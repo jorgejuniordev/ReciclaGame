@@ -1,0 +1,114 @@
+.logo{
+	background-image: url('../img/logo.png');
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	width: 220px;
+	height: 120px;
+	margin: 0 auto;
+}
+
+.lixos {
+	width: 70px;
+	font: 12px Arial;
+	text-align: center;
+	color: #666;
+	float: left;
+	margin: 0 15px 10px 0;
+	cursor: pointer;
+	z-index: 1000;
+}
+
+.imagemLixeira {
+	width: 70px;
+	font: 11px Arial;
+	text-align: center;
+	color: #FFF;
+	float: left;
+	margin: -70px 0 0 -5px;
+	position: absolute;
+	display: none;
+	text-shadow: 0 0 0.2em #000, 0 0 0.2em #000;
+	cursor: pointer;
+	z-index: -1;
+}
+
+.imagemLixeira img {
+	margin-bottom: -4px;
+	width: 50px;
+}
+
+.mensagemError {
+	position: absolute;
+	margin: 5px;
+	font: bold 16px Arial;
+	color: #CC0000;
+	text-shadow: 0 0 0.2em #FFF, 0 0 0.2em #FFF;
+	display: none;
+}
+
+.mensagemAcerto {
+	position: absolute;
+	margin: 5px;
+	font: bold 16px Arial;
+	color: #339933;
+	text-shadow: 0 0 0.2em #FFF, 0 0 0.2em #FFF;
+	display: none;
+}
+
+.detalhes {
+	font: 14px Arial;
+	color: #666;
+	margin-bottom: 20px;
+}
+
+.pontos {
+	font: bold 18px Arial;
+	margin-bottom: 5px;
+	color: #666
+}
+
+.numPts {
+	font: 18px Arial;
+	color: #333;
+}
+
+#detail {
+	height: 100%;
+	width: 100%;
+	top: 0px;
+	margin: 0 auto;
+	background-color: rgba(255, 255, 255, .75);
+	position: absolute;
+	display: none;
+	z-index: 1001;
+	opacity: 0;
+}
+
+#photoCon {
+	width: 250px;
+	height: 350px;
+	background-color: #000;
+	float: left;
+	margin-right: 20px;
+}
+
+#detail #closebtn {
+	font: bold 12px Arial, Sans Serif;
+	float: right;
+	color: #999;
+	border: 1px solid #CCC;
+	padding: 0 2px 0 2px;
+	cursor: pointer;
+}
+
+#desc {
+	font: 14px Arial;
+	margin-top: 25px;
+	color: #666;
+	padding-right: 20px;
+}
+
+#jogarNovamente{
+	visibility: hidden;
+}

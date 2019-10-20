@@ -1,0 +1,25 @@
+/* EducaSeletiva */
+
+html,
+body {
+  height: 100%;
+}
+
+footer{
+	margin-top: 3px;
+}
+
+#page-content {
+  flex: 1 0 auto;
+}
+
+#sticky-footer {
+  flex-shrink: none;
+}
+
+/* Outras classes de estilos existentes na página */
+
+body {
+  background: #797777;
+  background: linear-gradient(to top, #d5d5d5, #FFFFFF);
+}
